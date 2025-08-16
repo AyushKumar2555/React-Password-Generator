@@ -1,12 +1,94 @@
-# React + Vite
+🔑 React Password Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple Password Generator App built with React.js.
+It allows you to generate secure random passwords with custom length, numbers, and special characters.
 
-Currently, two official plugins are available:
+🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Generate strong random passwords
 
-## Expanding the ESLint configuration
+Choose password length (6–10)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Option to include numbers
+
+Option to include special characters
+
+Copy password to clipboard with one click
+
+Responsive UI built with Tailwind CSS
+
+🛠️ Tech Stack
+
+React.js – UI framework
+
+Tailwind CSS – Styling
+
+JavaScript (ES6+) – Logic
+
+📸 Screenshot
+
+(Add your project screenshot here once deployed)
+Example:
+
+![App Screenshot](./screenshot.png)
+
+⚙️ Installation
+
+Clone the repo:
+
+git clone https://github.com/AyushKumar2555/React-Password-Generator.git
+
+
+Go to project folder:
+
+cd React-Password-Generator
+
+
+Install dependencies:
+
+npm install
+
+
+Run locally:
+
+npm start
+
+🌐 Deployment
+
+You can deploy this app easily using GitHub Pages or platforms like Netlify and Vercel.
+
+To deploy on GitHub Pages:
+
+npm install gh-pages --save-dev
+
+
+Add this in package.json:
+
+"homepage": "https://AyushKumar2555.github.io/React-Password-Generator",
+"scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+}
+
+
+Then run:
+
+npm run deploy
+
+📚 Learnings
+
+Using React hooks (useState, useCallback, useEffect, useRef)
+
+Handling controlled inputs in React
+
+Clipboard API usage in browser
+
+Styling with Tailwind CSS
+
+🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+📄 License
+
+This project is MIT licensed.
